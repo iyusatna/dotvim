@@ -7,3 +7,12 @@
 [submodule "/home/iyus/.vim/bundle/nerdtree"]
 	path = /home/iyus/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/unite"]
+	path = bundle/unite
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/denite"]
+	path = bundle/denite
+	url = https://github.com/Shougo/denite.nvim.git
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = https://github.com/mhinz/vim-startify.git

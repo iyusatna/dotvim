@@ -22,3 +22,9 @@ com! -nargs=1 -complete=dir Ncd NERDTree | cd <args> |NERDTreeCWD
 
 " Use Tab key for switch tabs
 nnoremap <Tab> :bp<cr>
+
+" Initial NERDTree width 
+let NERDTreeWinSize = 35
+
+" Start NERDTree in minimal UI mode 
+let NERDTreeMinimalUI=1

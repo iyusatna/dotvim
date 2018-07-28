@@ -1,12 +1,15 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GENERAL
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+" Enable syntax highlight
 syntax on
+
+" Automatically indent and load plugin based on file extention
 filetype plugin indent on
+
 setglobal nobomb
 set autoindent
 set whichwrap=b,s,h,l,<,>,[,]
 set backspace=indent,eol,start
+
+" Set UTF-8 as default encoding
 set encoding=utf-8
 set expandtab
 set fileformats=unix
